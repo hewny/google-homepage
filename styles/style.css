@@ -1,0 +1,33 @@
+.topnav {
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color:lightblue;
+	color: white;
+	width: 100%;
+	height: 60px;
+	padding: 5px 5px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+}
+
+.topnav a {
+	float: left;
+	text-align: center;
+	padding: 5px 5px;
+	text-decoration: none;
+}
+.topnav a:hover {
+	background-color:lightcoral;
+}
+.topnav-links {
+	list-style: none;
+	display:flex;
+}
+
+.fullpage {
+	flex-direction:column;
+
+}
