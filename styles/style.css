@@ -3,31 +3,51 @@
 	align-items: center;
 	justify-content: space-between;
 	overflow: hidden;
-	background-color:lightblue;
-	color: white;
-	width: 100%;
+	/* background-color:lightblue; */
+	color: black;
 	height: 60px;
-	padding: 5px 5px;
+	padding: 5px 15px;
 	text-decoration: none;
 	text-align: center;
 	font-size: 14px;
+	/* width:70%; */
 }
 
 .topnav a {
 	float: left;
 	text-align: center;
-	padding: 5px 5px;
+	padding: 5px 15px 5px 0px;
 	text-decoration: none;
+	color: black;
 }
 .topnav a:hover {
-	background-color:lightcoral;
+	text-decoration: underline;
 }
 .topnav-links {
 	list-style: none;
 	display:flex;
+	align-items:center;
+}
+#topnav-button {
+	padding-left: 12px;
+	padding-right: 12px;
+	text-decoration: none;
+	background-color: rgb(66, 133, 244);
+	margin-left: 15px;
+}
+
+#topnav-button a:hover {
+	text-decoration: none;
 }
 
 .fullpage {
+	display:flex;
 	flex-direction:column;
-
+	align-self: center;
+	justify-content: flex-end;
+	align-content: center;
 }
+
+.search {
+
+} 
